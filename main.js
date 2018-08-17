@@ -2,8 +2,8 @@
 const canvas = document.querySelector('canvas');
 const context = canvas.getContext('2d');
 const fileInput = document.querySelector('input[type="file"]')
-const zoomIn = document.querySelector('.zoom-in')
-const zoomOut = document.querySelector('.zoom-out')
+const zoomIn = document.querySelector('.zoom-in');
+const zoomOut = document.querySelector('.zoom-out');
 
 //state variables
 let image;
